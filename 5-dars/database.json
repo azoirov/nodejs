@@ -1,0 +1,1 @@
+{"users":[{"id":1,"name":"Asadbek Zoirov"},{"id":2,"name":"Asadbek"}],"messages":[{"from":1,"to":2,"text":"lorem ipsum"},{"from":1,"to":2,"text":"TEST"},{"from":2,"to":1,"text":"Assalomu alaykum"}]}

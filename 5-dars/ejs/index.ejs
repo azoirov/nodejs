@@ -1,0 +1,10 @@
+<%-include("partials/header") %>
+    <section class="vh-100 d-flex flex-column justify-content-center align-items-center">
+        <div class="container border border-dark px-3 overflow-auto" style="height: 50%;">
+            <h1 class="text-center">Users</h1>
+            <% users.forEach(user => { %>
+                <a href="/chat/<%= user.id%>" class="btn btn-primary my-3"><%= user.name %></a>
+            <% }) %>
+        </div>
+    </section>
+<%-include("partials/footer") %>
